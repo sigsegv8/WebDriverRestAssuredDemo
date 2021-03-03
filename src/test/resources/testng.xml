@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTests">
+	<test name="UITests">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.taydavid.tests.ui.BorrowerInquiryTest" />
+		</classes>
+	</test>
+	<test name="APITests">
+		<classes>
+			<class name="com.taydavid.tests.api.LoginAPITest" />
+		</classes>
+	</test>
+</suite>
